@@ -3,7 +3,7 @@
 Unit ParsingJSONuni;
 interface 
 uses 
-Types,WinApi.windows;
+CommonTypesUnit,sysUtils,Types,WinApi.windows;
 type
   TJsonOCPP = class
   private
